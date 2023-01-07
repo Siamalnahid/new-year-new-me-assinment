@@ -29,7 +29,7 @@
     margin-bottom: 20px;
 }
 
-.contact-btn {
+.btn-primary {
     color: #005FAC;
     padding: 13px 20px;
     border: none;
@@ -39,10 +39,13 @@
 }
 
 /* picture about-me-section styles */
+
+
 .about-me-section {
     display: flex;
     gap: 40px;
-    margin: 0 90px;
+    margin: 50px 90px;
+    justify-content: center;
 }
 
 .about-section {
@@ -63,14 +66,67 @@
     margin-bottom: 12px;
 }
 
-.list-item{
+.list-item {
     padding: 5px;
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
+
 .list-item i {
-padding: 5px;
-color: green;
+    padding: 5px;
+    color: green;
+}
+
+/* my-plane-section-styles */
+
+.my-plane-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.my-plane-boxes {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plane-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.plane-title-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.my-plans-lastpart {
+    background-image: url('/images/gradient1.png'), url('/images/watch.png');
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+
+}
+
+.my-plans-lastpart-contant {
+    padding: 60px;
+    margin-bottom: 100px;
+}
+
+.my-plans-lastpart-contant-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }

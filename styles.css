@@ -5,7 +5,7 @@
 
 /* header-styles */
 .header {
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('images/banner/banner3.png');
     background-size: cover;
     margin-bottom: 100px;
 }
@@ -111,7 +111,7 @@
 }
 
 .my-plans-lastpart {
-    background-image: url('/images/gradient1.png'), url('/images/watch.png');
+    background-image: url('images/gradient1.png'), url('images/watch.png');
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 10px;
